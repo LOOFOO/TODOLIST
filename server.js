@@ -109,6 +109,6 @@ const requestlistener = (req, res)=>{
 
 }
 const server = http.createServer(requestlistener);
-server.listen(3006);
+server.listen(process.env.PORT || 3005);
 
 
